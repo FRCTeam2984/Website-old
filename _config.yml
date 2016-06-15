@@ -6,15 +6,15 @@
 title: The Vikings
 subtitle: Where Mettle and Metal collide!
 description:
-author: Maximilian Apodaca
-language:
+author: The Vikings
+language: default
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: ljhs.sandi.net/first
-root: /first/
-permalink: :year/:month/:day/:title/
+root: /first/NewSite/
+permalink: :title/
 permalink_defaults:
 
 # Directory
@@ -37,6 +37,7 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
+outer: <div class="outer">
 highlight:
   enable: true
   line_number: true
