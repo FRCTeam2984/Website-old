@@ -1,0 +1,20 @@
+<div class="index article article-entry">
+  <% var index = -1 %>
+  <% while((index = page.content.indexOf("<otherfile", index+1)) !== -1){ %>
+    <% var start =  page.content.indexOf("id=\"", index) %>
+    <% var string = page.content.substring(start+4, page.content.indexOf("\"", start+4)) %>
+    <% for(var k in page.subpages){ %>
+      <% if(string === page.subpages[k]){ %>
+        <% for(var i in site.posts.data){ %>
+          <% if(site.posts.data[i].title === string){ %>
+            <% var last = page.content.indexOf(">", index) %>
+            <% last = page.content.indexOf(">", last) %>
+            <% last = page.content.substring(index, last+1) %>
+            <% page.content = page.content.replace(last, partial(site.posts.data[i].layout, {page: site.posts.data[i]}).toString()) %>
+          <% } %>
+        <% } %>
+      <% } %>
+    <% } %>
+  <% } %>
+  <%- page.content %>
+</div>

@@ -1,9 +1,12 @@
 <div id="header-inner">
   <nav id="main-nav">
-    <a id="main-nav-toggle" class="nav-icon"></a>
-    <% for (var i in theme.menu){ %>
-      <a class="main-nav-link" href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
-    <% } %>
+    <a href="<%= config.root %>"><img class="headerImage" src=<%= config.root + "images/Logo.png" %>></a>
+    <div class="imageShift">
+      <a id="main-nav-toggle" class="nav-icon"></a>
+      <% for (var i in theme.menu){ %>
+        <a class="main-nav-link" href="<%- url_for(theme.menu[i]) %>"><%= i %></a>
+      <% } %>
+    </div>
   </nav>
   <nav id="sub-nav">
     <% if (theme.rss){ %>

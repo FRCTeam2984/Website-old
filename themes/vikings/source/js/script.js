@@ -91,10 +91,10 @@
       if ($(this).parent().hasClass('fancybox')) return;
 
       var alt = this.alt;
-
+      if($(this).context.nextSibling && $(this).context.nextSibling.tagName === "SPAN")
+        return;
       if (alt) $(this).after('<span class="caption">' + alt + '</span>');
 
-      $(this).wrap('<a href="' + this.src + '" title="' + alt + '" class="fancybox"></a>');
     });
 
     $(this).find('.fancybox').each(function(){

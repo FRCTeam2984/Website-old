@@ -1,0 +1,45 @@
+.sideWrapper
+  display: table;
+  border-spacing: 5px;
+
+.leftSidePane
+  display:table-cell
+  p
+    margin-top: 0;
+
+.rightSidePane
+  display:table-cell;
+  text-align: center;
+  vertical-align: middle;
+  .caption
+    margin-bottom: 10px;
+
+@media mq-tablet
+  .sideWrapper
+    display: inline-block;
+  .leftSidePane[style]
+    display:block
+    width:100% !important;
+    p
+      margin-top: 0;
+  .rightSidePane[style]
+    display:block;
+    width: 100% !important;
+
+@media mq-mobile
+  .sideWrapper
+    display: inline-block;
+  .leftSidePane[style]
+    display:block
+    width:100% !important;
+    p
+      margin-top: 0;
+  .rightSidePane[style]
+    display:block;
+    width: 100% !important;
+
+.columnWrapper
+  display: inline-block;
+
+.columnSeperator
+  float:left;

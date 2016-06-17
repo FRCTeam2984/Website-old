@@ -7,13 +7,14 @@ title: The Vikings
 subtitle: Where Mettle and Metal collide!
 description:
 author: The Vikings
+email: ljhsvikingrobotics@gmail.com
 language: default
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: ljhs.sandi.net/first
-root: /first/NewSite/
+root: /first/
 permalink: :title/
 permalink_defaults:
 

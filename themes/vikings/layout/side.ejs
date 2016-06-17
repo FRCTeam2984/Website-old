@@ -1,0 +1,16 @@
+<div class="sideWrapper">
+  <div class="leftSidePane" style="width: <%= page.leftpercent %>%">
+    <%- page.content %>
+  </div>
+  <div class="rightSidePane" style="width: <%= 100-parseFloat(page.leftpercent) %>%">
+    <% for(var alt in page.images){ %>
+      <% if(page.links) { %>
+        <a href="<%= config.root + page.links[alt] %>">
+            <img alt=<%= alt %> src="<%= config.root + "images/" + page.images[alt] %>">
+        </a>
+      <% } else { %>
+        <img alt=<%= alt %> src="<%= config.root + "images/" + page.images[alt] %>">
+      <% } %>
+    <% } %>
+  </div>
+</div>
