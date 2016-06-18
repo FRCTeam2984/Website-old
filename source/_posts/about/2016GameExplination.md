@@ -1,5 +1,5 @@
 ---
-title: GameExplination
+title: 2016GameExplination
 layout: side
 leftpercent: 60
 images:

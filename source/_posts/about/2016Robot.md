@@ -2,7 +2,7 @@
 title: Outta' Sight
 layout: collation
 subpages:
-  GameExplination: 2016GameExplination
+  2016GameExplination: 2016GameExplination
 ---
 
 Outta' Sight
@@ -16,4 +16,8 @@ Outta' Sight
 
 ![The feild for the 2016 Stronghold game.](/first/images/2016Robot/Competition.jpg)
 
-<otherfile id="GameExplination" > </otherfile>
+<otherfile id="2016GameExplination" > </otherfile>
+
+<div class="maxAspectKeep">
+  <iframe src="https://www.youtube.com/embed/VqOKzoHJDjA?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>

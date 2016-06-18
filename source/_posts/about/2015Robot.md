@@ -2,18 +2,20 @@
 title: Robobobobo...
 layout: collation
 subpages:
-  GameExplination: 2016GameExplination
+  2015RobotSide: 2015RobotSide
 ---
 
 Robo<span class="overline">bo</span>
 ---
 
-![The 2016 Robot](/first/images/2016Robot/2016Robot.jpg)
+![The 2015 Robot](/first/images/2015Robot/DSC00235.JPG)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Outta' Sight was the robot that we used in the 2016 season. Outta' Sight featured an in dependently articulating suspension as well as pneumatic tires. These were used to absorb shocks that might be incurred when driving over the obstacles in the game. In addition to the suspension Outta' Sight featured an arm. Using two rollers that were attached to the front of the arm we were able to suck in and spit out the ball.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Robo<span class="overline">bo</span> was our team's robot for the 2015 season. Its main purpose was to stack totes (boxes) which it did using an elevator mechanism. The elevators on the sides of the lifting cage would move up and down to pick up a tote. Every time they were up we would drive up to another tote and have it slide under the previous tote(s). Then we would lower the elevators and the hooks would release the lifted tote and grab on to the bottom tote. We could then repeat this process as many times as we wanted. The lifters included encoders so that the software could move them to the appropriate positions upon the direction of the operator.
+
+<otherfile id="2015RobotSide"></otherfile>
 
 ### The Game
 
-![The feild for the 2016 Stronghold game.](/first/images/2016Robot/Competition.jpg)
-
-<otherfile id="GameExplination" > </otherfile>
+<div class="maxAspectKeep">
+  <iframe src="https://www.youtube.com/embed/mAN1B7oKDXE?rel=0" frameborder="0" allowfullscreen></iframe>
+</div>

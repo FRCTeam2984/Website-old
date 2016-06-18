@@ -8,7 +8,7 @@ widths:
   3: 1
 ---
 
-[![2015 Robot at the beginning of the competition.][2015Robot]](/first/2015Robot)
+[![2015 Robot at the beginning of the competition.][2015Robot]](/first/about/2015Robot)
 
 <splitcolumn></splitcolumn>
 
