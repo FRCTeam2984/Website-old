@@ -3,7 +3,6 @@ menu:
   Home: /
   Donate: /donate
   About: /about
-rss: /atom.xml
 
 # Content
 excerpt_link: Read More
@@ -11,7 +10,7 @@ fancybox: false
 
 # Miscellaneous
 google_analytics:
-favicon: /favicon.png
+favicon: /first/images/Logo.png
 twitter:
 google_plus:
 fb_admins:

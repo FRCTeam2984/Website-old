@@ -7,16 +7,17 @@
   <% } %>
   <% var index = -1 %>
   <% var completed = 0 %>
-  <% while((index = page.content.indexOf("<splitcolumn>")) !== -1){ %>
-      <% var last = page.content.indexOf(">", index+1) %>
-      <% last = page.content.indexOf(">", last+1) %>
+  <% var content = page.content %>
+  <% while((index = content.indexOf("<splitcolumn>")) !== -1){ %>
+      <% var last = content.indexOf(">", index+1) %>
+      <% last = content.indexOf(">", last+1) %>
       <div class="columnSeperator" style="width: <%= parseFloat(page.widths[number[completed]])/width*100 %>%; margin-right:<%= parseFloat(page.nullSpace)/(number.length-1)/width*100 %>%">
         <% completed ++ %>
-        <%- page.content.substring(0, index) %>
+        <%- content.substring(0, index) %>
       </div>
-      <% page.content = page.content.substring(last+1) %>
+      <% content = content.substring(last+1) %>
   <% } %>
   <div class="columnSeperator" style="width: <%= parseFloat(page.widths[number[completed]])/width*100 %>%">
-    <%- page.content %>
+    <%- content %>
   </div>
 </div>
