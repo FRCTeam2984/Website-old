@@ -1,7 +1,22 @@
 ---
 title: The Vikings
 layout: index
+sections:
+  2: null
+people:
+ - adenhibbs.jpg
+ - dannacandare.jpg
+ - daryllyons.jpg
+ - dylanhicksonlong.jpg
+ - laurenhibbs.jpg
+ - maxapodaca.jpg
+ - samarmstrong.jpg
+ - stevengazi.jpg
+ - tanvirhussain.jpg
 ---
+We are a student run team that builds a robot every year.
+[More+](/first/about/) [Donate](/first/donate)
+<partbreak></partbreak>
 Who are we?
 -------
 

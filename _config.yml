@@ -38,7 +38,7 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-outer: <div class="outer">
+outer: <doNotInclude></doNotInclude>
 highlight:
   enable: true
   line_number: true

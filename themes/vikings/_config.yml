@@ -15,3 +15,5 @@ twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+pictures_per_row: 4
+max_pictures: 8

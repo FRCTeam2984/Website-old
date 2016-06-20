@@ -1,7 +1,38 @@
-<div class="outer">
+<doNotInclude></doNotInclude>
+<div class="outer index-outer">
   <section id="main">
-    <div class="index article article-entry">
-      <%- page.content %>
+    <div class="index ">
+      <% var split = page.content.split("<partbreak></partbreak>")  %>
+      <div class="index-wrapper" id="first">
+        <div class="team-memebers" >
+            <% for(var i = 0; i<Math.min(page.people.length, theme.max_pictures); i++){
+               var row = Math.floor(i/5);
+               var column = i%theme.pictures_per_row;
+               if(column === 0){ %>
+                <div class="team-memeber-row">
+              <% } %>
+              <div class="team-memeber-wrapper">
+                <img class="team-memeber" src="<%= config.root + "images/people/" + page.people[i] %>">
+              </div>
+              <% if(column === (theme.pictures_per_row -1) || i === (page.people.length -1)){ %>
+                </div>
+              <% }
+            } %>
+        </div>
+        <div class="article-entry index-section" id="first">
+          <%- split[0] %>
+        </div>
+      </div>
+      <% for(var i = 1; i<split.length; i++){ %>
+        <div class="index-wrapper">
+          <div class="image" id="<%= i %>">
+            <img src="<%= config.root + "images/" + page.sections[i + 1] %>">
+          </div>
+          <div class="article-entry index-section" id="<%= i %>">
+            <%- split[i] %>
+          </div>
+        </div>
+      <% } %>
     </div>
   </section>
 </div>

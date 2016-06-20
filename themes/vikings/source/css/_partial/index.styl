@@ -1,3 +1,56 @@
 .index
   margin: index-margin 0;
   color: color-default;
+
+.index-wrapper{
+  background-color: red;
+  display: table;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  width: 100%;
+  min-height: index-section-height;
+  .image{
+    float:right;
+    width: 60%;
+    img{
+      max-width: 80%;
+      max-height: 30em;
+      display:block;
+      margin:auto;
+    }
+  }
+  .index-section{
+    float:left;
+    max-width:40%;
+    white-space:normal;
+    display:inline-block;
+  }
+}
+
+.index-outer{
+  max-width: 100%;
+}
+
+.team-memebers{
+  float:right;
+  margin-top: index-section-height * index-image-down;
+  max-width: 60%;
+}
+
+.team-memeber-wrapper{
+  display: inline-block;
+  width:210px;
+  height: 170px;
+}
+
+.team-memeber{
+  max-width: 100%;
+  max-height:100%;
+  display:block;
+  margin:auto;
+}
+
+.team-memeber-row{
+  white-space: nowrap;
+  margin-bottom: 30px;
+}
