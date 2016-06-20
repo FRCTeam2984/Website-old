@@ -3,15 +3,15 @@
   color: color-default;
 
 .index-wrapper{
-  background-color: red;
   display: table;
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   white-space: nowrap;
   width: 100%;
-  min-height: index-section-height;
   .image{
-    float:right;
     width: 60%;
+    text-align: center;
+    vertical-align: middle;
+    display:table-cell;
     img{
       max-width: 80%;
       max-height: 30em;
@@ -19,38 +19,59 @@
       margin:auto;
     }
   }
+  .index-section-wrapper{
+    width:40%;
+    display:table-cell;
+    vertical-align: middle;
+  }
   .index-section{
-    float:left;
-    max-width:40%;
+    width:60%;
     white-space:normal;
-    display:inline-block;
+    text-align: center;
+    margin: auto;
+    p{
+      font-size: 1.3em;
+      margin-top: 0.3em;
+      margin-bottom: 0.3em;
+    }
+    h2{
+      a{
+        margin:0;
+      }
+      font-size: 2em;
+      margin: 0;
+    }
+    a{
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+    }
+    @media mq-tablet{
+      width:80%;
+      margin-bottom: 20px;
+      p{
+        font-size: 1.0em;
+      }
+      h2{
+        font-size: 1.6em;
+      }
+    }
+    @media mq-mobile{
+      margin-bottom: 10px;
+      width:80%;
+      p{
+        font-size: 0.8em;
+      }
+      h2{
+        font-size: 1.2em;
+      }
+      a{
+        margin-left: 0.25em;
+        margin-right: 0.25em;
+      }
+    }
   }
 }
 
 .index-outer{
-  max-width: 100%;
-}
-
-.team-memebers{
-  float:right;
-  margin-top: index-section-height * index-image-down;
-  max-width: 60%;
-}
-
-.team-memeber-wrapper{
-  display: inline-block;
-  width:210px;
-  height: 170px;
-}
-
-.team-memeber{
-  max-width: 100%;
-  max-height:100%;
-  display:block;
-  margin:auto;
-}
-
-.team-memeber-row{
-  white-space: nowrap;
-  margin-bottom: 30px;
+  max-width: 1200px;
 }
