@@ -8,21 +8,28 @@
   white-space: nowrap;
   width: 100%;
   .image{
-    width: 60%;
+    width: 50%;
     text-align: center;
     vertical-align: middle;
     display:table-cell;
     img{
       max-width: 80%;
-      max-height: 30em;
+      max-height: 25em;
       display:block;
       margin:auto;
     }
+  }
+  .two-text {
+    font-size: 0.7em;
+    width:45% !important;
   }
   .index-section-wrapper{
     width:40%;
     display:table-cell;
     vertical-align: middle;
+    .smaller{
+      font-size:0.8em;
+    }
   }
   .index-section{
     width:60%;
@@ -69,6 +76,34 @@
         margin-right: 0.25em;
       }
     }
+  }
+}
+
+.index-sponsors{
+  text-align: center;
+  word-break: break-all;
+  h2{
+    font-size: 2em;
+  }
+  @media mq-tablet{
+    h2{
+      font-size: 1.4em;
+    }
+  }
+  @media mq-mobile{
+    h2{
+      font-size: 1.0em;
+    }
+  }
+  .caption{
+    display:none;
+  }
+  img{
+    max-width: 40%;
+    width: 300px;
+    vertical-align:middle;
+    display:inline-block;
+    margin: 20px;
   }
 }
 

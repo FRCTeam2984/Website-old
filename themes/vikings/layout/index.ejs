@@ -4,28 +4,60 @@
     <div class="index ">
       <% var split = page.content.split("<partbreak></partbreak>")  %>
       <% for(var i = 0; i<split.length; i++){
-        if(i%2 === 0){ %>
-          <div class="index-wrapper">
-            <div class="index-section-wrapper">
+        if(split[i].indexOf("<partial id=\"") !== -1){
+          var start = split[i].indexOf("<partial id=\"");
+          var first = split[i].indexOf("id=", start);
+          var last = split[i].indexOf("\"", first + 5)
+          var id = split[i].substring(first + 4, last);
+          split[i] = split[i].replace("<partial id=\"" + id + "\">\n", ""); %>
+          <div class="article-entry index-section index-sponsors">
+            <%- partial('_partial/' + id, {page: split[i]}) %>
+          </div>
+        <% } else if(split[i].indexOf("<two-text></two-text>") !== -1){
+          split[i] = split[i].replace("<two-text></two-text>", "");%>
+          <div class="index-wrapper two-text-wrap">
+            <div class="index-section-wrapper two-text">
               <div class="article-entry index-section">
                 <%- split[i] %>
               </div>
+              <div class="image image-two">
+                <img src="<%= config.root + "images/" + page.sections[i].split(",")[0] %>">
+              </div>
             </div>
-            <div class="image">
-              <img src="<%= config.root + "images/" + page.sections[i] %>">
-            </div>
-          </div>
-        <% } else { %>
-          <div class="index-wrapper" id="flip">
-            <div class="image" id="flip">
-              <img src="<%= config.root + "images/" + page.sections[i] %>">
-            </div>
-            <div class="index-section-wrapper">
+            <div class="index-section-wrapper two-text">
               <div class="article-entry index-section">
-                <%- split[i] %>
+                <%- split[i+1] %>
+              </div>
+              <div class="image image-two">
+                <img src="<%= config.root + "images/" + page.sections[i].split(",")[1] %>">
               </div>
             </div>
           </div>
+          <% i++ %>
+        <% } else {
+          if(i%2 === 0){ %>
+            <div class="index-wrapper">
+              <div class="index-section-wrapper">
+                <div class="article-entry index-section">
+                  <%- split[i] %>
+                </div>
+              </div>
+              <div class="image">
+                <img src="<%= config.root + "images/" + page.sections[i] %>">
+              </div>
+            </div>
+          <% } else { %>
+            <div class="index-wrapper" id="flip">
+              <div class="image" id="flip">
+                <img src="<%= config.root + "images/" + page.sections[i] %>">
+              </div>
+              <div class="index-section-wrapper">
+                <div class="article-entry index-section">
+                  <%- split[i] %>
+                </div>
+              </div>
+            </div>
+          <% } %>
         <% } %>
       <% } %>
     </div>

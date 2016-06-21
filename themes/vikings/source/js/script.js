@@ -135,5 +135,11 @@
     $container.removeClass('mobile-nav-on');
   });
 
-  
+  console.log($( window ).width());
+  if($( window ).width() > 500){
+    $('#banner').css('background', 'url("images/banner-big.jpg") center');
+    $('#banner').css('background-size', 'cover');
+  }
+
+
 })(jQuery);
