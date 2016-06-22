@@ -1,8 +1,27 @@
 ---
 title: Donate
 date: 2016-06-14 21:16:10
-layout: page
+layout: donate
 ---
+Donate
+===
+
+### Donate by Check
+Make Checks Payable To:
+The Foundation of La Jolla High School (RE: Robotics Club)
+
+Mail To:
+La Jolla High School Attn:
+Melanie Saddler
+750 Nautilus St
+La Jolla,
+CA 92037
+<partbreak></partbreak>
+
+### Or Donate Online
+[Donate 🡥](https://www.foundationofljhs.com/robotics-team.html)
+<partbreak></partbreak>
+
 Why should you help us?
 -------
 
@@ -10,29 +29,31 @@ Why should you help us?
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you have any questions, would like to donate, or can offer help in any other way, such as through mentoring, please contact us. You can support us by visiting our donations page or by donating online at [foundationofljhs.com](https://www.foundationofljhs.com/robotics-team.html). Sponsoring us gives you the opportunity to put you or your company’s name on the back of our team shirts, on our website, and facebook page.
 
-Make Checks Payable To:
-The Foundation of La Jolla High School (RE: Robotics Club)
-Mail To:
-La Jolla High School Attn: Mr. Greg Volger 750 Nautilus St La Jolla, CA 92037
-
-
 Our thanks to:
 -------
 
 ### Our Current Sponsors:
 
-![for their continued and very generous support. Without their help this would not be possible.][Dini]
+![Dini Group][Dini]
 ![Quasar Federal Systems][QuasarFS]
 ![Quasar][Quasar]
 ![Sperr][Sperr]
-
+![Solidworks][Solidworks]
+![Copy Cove][CopyCove]
 
 ### Past Sponsors:
-
+<partbreak></partbreak>
 Viasat
-SolidWorks
+ESET
+IntelliSense
+Nypro
+Pizza On Pearl
+Qualcomm
+The Neurosciences Institute
 
 [Dini]: /first/images/dinigroup.jpg "Dini Group"
 [QuasarFS]: /first/images/QuasarFederalSystems.png "Quasar Federal Systems"
 [Quasar]: /first/images/Quasar.jpg "Quasar"
 [Sperr]: /first/images/Sperr.png "Sperr"
+[Solidworks]: /first/images/solidworks.jpg "Solidworks"
+[CopyCove]: /first/images/CopyCove.png "Copy Cove"

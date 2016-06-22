@@ -19,16 +19,15 @@
       margin:auto;
     }
   }
-  .two-text {
-    font-size: 0.7em;
-    width:45% !important;
-  }
   .index-section-wrapper{
     width:40%;
     display:table-cell;
     vertical-align: middle;
     .smaller{
       font-size:0.8em;
+    }
+    img{
+      max-height: none;
     }
   }
   .index-section{
@@ -77,6 +76,18 @@
       }
     }
   }
+  .two-text {
+    .index-section{
+      width: 70%;
+    }
+    font-size: 0.8em;
+    width:45%;
+    @media mq-mobile{
+      width: 100%;
+      display:block;
+      margin-bottom:2em;
+    }
+  }
 }
 
 .index-sponsors{
@@ -109,4 +120,32 @@
 
 .index-outer{
   max-width: 1200px;
+}
+
+.donate-wrapper{
+  display:table;
+  width: 100%;
+  h3{
+    text-align: center;
+    top:0;
+  }
+}
+
+.donate-center{
+  text-align: center;
+}
+
+.donate-left-wrapper{
+  width: 69%;
+  display:table-cell;
+}
+
+.donate-right-wrapper{
+  width: 30%;
+  display:table-cell;
+  a{
+    font-size: 2em;
+  }
+  text-align: center;
+  vertical-align: middle;
 }

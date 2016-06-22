@@ -1,0 +1,15 @@
+<div class="index article article-entry">
+  <% var split = page.content.split("<partbreak></partbreak>")  %>
+  <div class="donate-wrapper">
+    <div class="donate-left-wrapper">
+      <%- split[0] %>
+    </div>
+    <div class="donate-right-wrapper">
+      <%- split[1] %>
+    </div>
+  </div>
+  <%- split[2] %>
+  <div class="donate-center">
+    <%- split[4] %>
+  </div>
+</div>

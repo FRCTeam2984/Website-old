@@ -29,7 +29,7 @@ Community
 We Need Your Help
 ---
 As a robotics team we need money to do almost anything. But unlike other teams, our team is not school funded, meaning we rely entirely on donations.  Each year our team needs around $15,000 dollars to continue to operate. This pays for competition registration and parts for the robot. Funding this team gives another year of students the opportunity to learn valuable leadership and engineering skills. It is our mission to provide as many engineering opportunities as possible to students at a school that has low participation in STEM related extracurriculars.
-[Donate >](/first/donate/)
+[Donate >](/first/donate/#Donate)
 <partbreak></partbreak>
 Join The Vikings
 ---
@@ -39,4 +39,4 @@ Being on a FIRST team is an amazing experience. You can peruse your passions as 
 <partial id="sponsors">
 Special Thanks to Our Sponsors
 ---
-![Dini Group](/first/images/dinigroup.jpg)![Quasar Federal Systems](/first/images/QuasarFederalSystems.png) ![Quasar](/first/images/Quasar.jpg) ![Sperr](/first/images/Sperr.png)![Solid Works](/first/images/solidworks.jpg)
+![Dini Group](/first/images/dinigroup.jpg)![Quasar Federal Systems](/first/images/QuasarFederalSystems.png) ![Quasar](/first/images/Quasar.jpg) ![Sperr](/first/images/Sperr.png) ![Solid Works](/first/images/solidworks.jpg) ![Copy Cove](/first/images/CopyCove.png)
