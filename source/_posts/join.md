@@ -24,3 +24,4 @@ Useful Information
 <li>We meet Thursdays during lunch to plan events and keep everyone informed.</li>
 <li>It is free to join the club.</li>
 <li>We go to two competitions each year, one of which is in San Diego.</li>
+</lo>

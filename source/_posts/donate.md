@@ -5,6 +5,7 @@ layout: donate
 ---
 Donate
 ===
+<partbreak></partbreak>
 
 ### Donate by Check
 Make Checks Payable To:
@@ -25,9 +26,19 @@ CA 92037
 Why should you help us?
 -------
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a robotics team we need money to do almost anything. But unlike other teams, our team is not school funded, meaning we rely entirely on donations.  Each year our team needs around $15,000 dollars to continue to operate. This pays for competition registration and parts for the robot. A detailed view of our yearly projected budget is available on our needs page. 		Funding this team gives another year of students the opportunity to learn valuable leadership and engineering skills. It is our mission to provide as many engineering opportunities as possible to students at a school that has low participation in STEM related extracurriculars. (see our Keep Computer Science page for more information about how to help our school).
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;As a robotics team we need money to do almost anything. But unlike other teams, our team is not school funded, meaning we rely entirely on donations.  Each year our team needs around $15,000 dollars to continue to operate. This pays for competition registration and parts for the robot. A detailed view of our yearly projected budget is available on our needs page. Funding this team gives another year of students the opportunity to learn valuable leadership and engineering skills. It is our mission to provide as many engineering opportunities as possible to students at a school that has low participation in STEM related extracurriculars.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If you have any questions, would like to donate, or can offer help in any other way, such as through mentoring, please contact us. You can support us by visiting our donations page or by donating online at [foundationofljhs.com](https://www.foundationofljhs.com/robotics-team.html). Sponsoring us gives you the opportunity to put you or your company’s name on the back of our team shirts, on our website, and facebook page.
+
+How will your donation be used?
+---
+Your donation will be used in one of the following areas:
+<lo>
+<li>Registration for the events</li>
+<li>Parts for the robot</li>
+<li>Transportation costs</li>
+<li>New Machines / Repairing Machines</li>
+</lo>
 
 Our thanks to:
 -------

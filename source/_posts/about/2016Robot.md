@@ -10,7 +10,7 @@ Outta' Sight
 
 ![The 2016 Robot](/first/images/2016Robot/2016Robot.jpg)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Outta' Sight was the robot that we used in the 2016 season. Outta' Sight featured an in dependently articulating suspension as well as pneumatic tires. These were used to absorb shocks that might be incurred when driving over the obstacles in the game. In addition to the suspension Outta' Sight featured an arm. Using two rollers that were attached to the front of the arm we were able to suck in and spit out the ball.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Outta' Sight was the robot that we used in the 2016 season. Outta' Sight featured an independently articulating suspension as well as pneumatic tires. These were used to absorb shocks that are incurred when driving over the obstacles during the game. In addition to the suspension Outta' Sight featured an arm. Using two rollers that were attached to the front of the arm we were able to suck in and spit out the ball.
 
 ### The Game
 

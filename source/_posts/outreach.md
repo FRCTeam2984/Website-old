@@ -15,4 +15,4 @@ Presentations
 
 On Campus
 ---
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The club does a lot on campus. Our school has only one two-semester course relating to engineering, which is a mechanical physics course. So we help fill in that gap and allow for the students at our school to learn about engineering and electronics. The computer science teacher at La Jolla High retired and the administration wanted to stop offering the computer science classes. Our club stepped in to try and convince the administration that computer science was worth keeping at La Jolla High school and we managed to save our computer science courses.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Our club fills an important role on campus. In addition to courses that are offered during the school day we are able to provide an environment in which learning is made fun and everything is hands on. Every student that is in our club wants to learn, whether it is about mechanical engineering or about running a club. The skills that they learn are going to be applicable through their lives.
