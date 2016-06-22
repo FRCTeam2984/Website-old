@@ -42,7 +42,6 @@ Our thanks to:
 ![Copy Cove][CopyCove]
 
 ### Past Sponsors:
-<partbreak></partbreak>
 Viasat
 ESET
 IntelliSense

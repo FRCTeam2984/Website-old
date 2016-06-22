@@ -2,6 +2,7 @@
 title: PastRobotsInsert
 layout: columns
 nullSpace: 0.1
+sitemap: false
 widths:
   1: 1
   2: 1

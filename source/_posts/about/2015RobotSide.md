@@ -1,6 +1,7 @@
 ---
 title: 2015RobotSide
 layout: side
+sitemap: false
 leftpercent: 60
 images:
   A&nbsp;Tansmission: 2015Robot/DSC00210.JPG

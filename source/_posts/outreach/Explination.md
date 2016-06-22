@@ -2,6 +2,7 @@
 title: Explination
 layout: side
 leftpercent: 60
+sitemap: false
 images:
   Our&nbsp;Team&nbsp;Presenting: VisitingAtElementary.JPG
 ---

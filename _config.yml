@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: ljhs.sandi.net/first
+url: http://ljhs.sandi.net/
 root: /first/
 permalink: :title/
 permalink_defaults:
@@ -49,6 +49,11 @@ highlight:
 default_category: uncategorized
 category_map:
 tag_map:
+
+#SiteMap
+sitemap:
+    path: sitemap.xml
+    url: /first/
 
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date

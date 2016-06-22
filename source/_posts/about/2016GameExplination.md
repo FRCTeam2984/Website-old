@@ -1,6 +1,7 @@
 ---
 title: 2016GameExplination
 layout: side
+sitemap: false
 leftpercent: 60
 images:
   Outta'&#32;Sight&#32;Going&#32;Over&#32;Obstacles: 2016Robot/IMG_0499.JPG

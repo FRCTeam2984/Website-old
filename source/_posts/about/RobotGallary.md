@@ -2,6 +2,7 @@
 title: RobotGallery
 layout: side
 leftpercent: 55
+sitemap: false
 images:
   2016&#32;Robot: 2016Robot/2016Robot.jpg
 links:
