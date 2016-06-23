@@ -7,7 +7,7 @@ sections:
  - VisitingAtElementary.JPG
  - TeamPhoto.jpg,2016Robot/IMG_0469.JPG
 ---
-Kids
+Students
 ---
 Building a robot
 Learning about STEM
