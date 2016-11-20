@@ -1,6 +1,7 @@
 ---
 title: Outta' Sight
 layout: collation
+sitemap: false
 subpages:
   2016GameExplination: 2016GameExplination
 ---

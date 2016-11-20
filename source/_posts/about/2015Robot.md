@@ -1,6 +1,7 @@
 ---
 title: Robobobobo...
 layout: collation
+sitemap: false
 subpages:
   2015RobotSide: 2015RobotSide
 ---

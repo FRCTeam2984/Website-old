@@ -1,0 +1,12 @@
+<div class="index article article-entry">
+  <%-page.content%>
+  <div class="lessons">
+    <% for(var lesson of page.lessons){ %>
+      <a href=<%-lesson.link%>>
+        <div class="lesson">
+          <%- partial('_partial/lesson', {lesson: lesson}) %>
+        </div>
+      </a>
+    <% } %>
+  </div>
+</div>
