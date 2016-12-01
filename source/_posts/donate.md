@@ -62,7 +62,7 @@ Qualcomm
 The Neurosciences Institute
 
 [Dini]: /first/images/dinigroup.jpg "Dini Group"
-[QuasarFS]: /first/images/QuasarFederalSystems.png "Quasar Federal Systems"
+[QuasarFS]: http://www.quasarfs.com/images/QFS_logo.svg "Quasar Federal Systems"
 [Quasar]: /first/images/Quasar.jpg "Quasar"
 [Sperr]: /first/images/Sperr.png "Sperr"
 [Solidworks]: /first/images/solidworks.jpg "Solidworks"

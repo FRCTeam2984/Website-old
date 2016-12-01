@@ -8,6 +8,9 @@
         <%- body.replace(config.outer, "") %>
       <% }else{ %>
         <div class="outer">
+          <% if(page.navigation){ %>
+            <%- partial('_partial/navigation', {navigation: page.navigation}) %>
+          <% } %>
           <section id="main"><%- body %></section>
         </div>
       <% } %>

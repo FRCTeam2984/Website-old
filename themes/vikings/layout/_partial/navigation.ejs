@@ -1,0 +1,18 @@
+<div class="navigation-bar article-entry">
+  <% if(navigation.next){ %>
+    <a href=<%= navigation.next %> class="next">
+      <div class="next-div"><%= navigation.isHome ? "Start" : "Next" %></div>
+    </a>
+  <% } %>
+  <% if(navigation.previous){ %>
+    <a href=<%= navigation.previous %> class="previous">
+      <div class="prev-div">Previous</div>
+    </a>
+  <% } else if(navigation.home){ %>
+    <a href=<%= navigation.home %> class="home">
+      <div class="home-div"><%= navigation.isHome ? "Course Selection" : "Course Home" %></div>
+    </a>
+  <% } else {%>
+    <div><%= navigation.home %></div>
+  <% } %>
+</div>
