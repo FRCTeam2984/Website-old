@@ -16,6 +16,11 @@
   "image":"/first/images/courses/Wiring/Cover.jpg",
   "description":"This course is about all of the electrical connections which we use on our robots.",
   "link":"/first/courses/Wiring"
+  },{
+  "title":"SolidWorks",
+  "image":"/first/images/courses/SolidWorks/solidworks.png",
+  "description":"Work smarter through 3D design.",
+  "link":"/first/courses/SolidWorks"
   }]
 ;;;
 Courses
