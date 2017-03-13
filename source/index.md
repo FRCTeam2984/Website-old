@@ -39,4 +39,4 @@ Being on a FIRST team is an amazing experience. You can peruse your passions as 
 <partial id="sponsors">
 Special Thanks to Our Sponsors
 ---
-[![Dini Group](/first/images/dinigroup.jpg)](http://www.dinigroup.com/web/index.php) [![Quasar Federal Systems](http://www.quasarfs.com/images/QFS_logo.svg)](http://www.quasarfs.com/) [![Quasar](/first/images/Quasar.jpg)](http://www.quasarusa.com/) [![Sperr](/first/images/Sperr.png)](http://www.sperr.de/) [![Solid Works](/first/images/solidworks.jpg)](http://www.solidworks.com/) [![Copy Cove](/first/images/CopyCove.png)](http://www.copycove.com/)
+[![Dini Group](/first/images/dinigroup.jpg)](http://www.dinigroup.com/web/index.php) [![Lockheed Martin](/first/images/Lockheed.png)](http://www.lockheedmartin.com/us.html) [![Quasar Federal Systems](http://www.quasarfs.com/images/QFS_logo.svg)](http://www.quasarfs.com/) [![Quasar](/first/images/Quasar.jpg)](http://www.quasarusa.com/) [![Sperr](/first/images/Sperr.png)](http://www.sperr.de/) [![Solid Works](/first/images/solidworks.jpg)](http://www.solidworks.com/) [![Copy Cove](/first/images/CopyCove.png)](http://www.copycove.com/)

@@ -46,6 +46,7 @@ Our thanks to:
 ### Our Current Sponsors:
 
 ![Dini Group][Dini]
+![Lockheed Martin][Lockheed]
 ![Quasar Federal Systems][QuasarFS]
 ![Quasar][Quasar]
 ![Sperr][Sperr]
@@ -62,6 +63,7 @@ Qualcomm
 The Neurosciences Institute
 
 [Dini]: /first/images/dinigroup.jpg "Dini Group"
+[Lockheed]: /first/images/Lockheed.png "Lockheed Martin"
 [QuasarFS]: http://www.quasarfs.com/images/QFS_logo.svg "Quasar Federal Systems"
 [Quasar]: /first/images/Quasar.jpg "Quasar"
 [Sperr]: /first/images/Sperr.png "Sperr"
